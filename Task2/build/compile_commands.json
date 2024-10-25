@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/user/CPS2004-Labs/Task2/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ShoppingItems.dir/main.cpp.o -c /home/user/CPS2004-Labs/Task2/main.cpp",
+  "file": "/home/user/CPS2004-Labs/Task2/main.cpp",
+  "output": "CMakeFiles/ShoppingItems.dir/main.cpp.o"
+}
+]
