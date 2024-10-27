@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/user/CPS2004-Labs/Task2/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ShoppingItems.dir/all
+all: CMakeFiles/ItemManager.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ShoppingItems.dir/clean
+clean: CMakeFiles/ItemManager.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ShoppingItems.dir
+# Target rules for target CMakeFiles/ItemManager.dir
 
 # All Build rule for target.
-CMakeFiles/ShoppingItems.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShoppingItems.dir/build.make CMakeFiles/ShoppingItems.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShoppingItems.dir/build.make CMakeFiles/ShoppingItems.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/user/CPS2004-Labs/Task2/build/CMakeFiles --progress-num=1,2 "Built target ShoppingItems"
-.PHONY : CMakeFiles/ShoppingItems.dir/all
+CMakeFiles/ItemManager.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/user/CPS2004-Labs/Task2/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target ItemManager"
+.PHONY : CMakeFiles/ItemManager.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ShoppingItems.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/CPS2004-Labs/Task2/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ShoppingItems.dir/all
+CMakeFiles/ItemManager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/CPS2004-Labs/Task2/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ItemManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/CPS2004-Labs/Task2/build/CMakeFiles 0
-.PHONY : CMakeFiles/ShoppingItems.dir/rule
+.PHONY : CMakeFiles/ItemManager.dir/rule
 
 # Convenience name for target.
-ShoppingItems: CMakeFiles/ShoppingItems.dir/rule
-.PHONY : ShoppingItems
+ItemManager: CMakeFiles/ItemManager.dir/rule
+.PHONY : ItemManager
 
 # clean rule for target.
-CMakeFiles/ShoppingItems.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShoppingItems.dir/build.make CMakeFiles/ShoppingItems.dir/clean
-.PHONY : CMakeFiles/ShoppingItems.dir/clean
+CMakeFiles/ItemManager.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/clean
+.PHONY : CMakeFiles/ItemManager.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,6 +1,8 @@
-CMakeFiles/ShoppingItems.dir/main.cpp.o: \
- /home/user/CPS2004-Labs/Task2/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/ItemManager.dir/Electronics.cpp.o: \
+ /home/user/CPS2004-Labs/Task2/Electronics.cpp /usr/include/stdc-predef.h \
+ /home/user/CPS2004-Labs/Task2/Electronics.h \
+ /home/user/CPS2004-Labs/Task2/Item.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -148,15 +150,8 @@ CMakeFiles/ShoppingItems.dir/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/fstream \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/fstream \
  /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc \
- /home/user/CPS2004-Labs/Task2/Item.h \
- /home/user/CPS2004-Labs/Task2/Grocery.h \
- /home/user/CPS2004-Labs/Task2/Electronics.h
+ /usr/include/c++/13/bits/fstream.tcc

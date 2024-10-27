@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "ShoppingItems::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ShoppingItems-Debug-47200725766d3a3646a4.json",
-					"name" : "ShoppingItems",
+					"id" : "ItemManager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ItemManager-Debug-bc692717dfaf471ff757.json",
+					"name" : "ItemManager",
 					"projectIndex" : 0
 				}
 			]

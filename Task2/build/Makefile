@@ -117,24 +117,96 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ShoppingItems
+# Target rules for targets named ItemManager
 
 # Build rule for target.
-ShoppingItems: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ShoppingItems
-.PHONY : ShoppingItems
+ItemManager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ItemManager
+.PHONY : ItemManager
 
 # fast build rule for target.
-ShoppingItems/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShoppingItems.dir/build.make CMakeFiles/ShoppingItems.dir/build
-.PHONY : ShoppingItems/fast
+ItemManager/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/build
+.PHONY : ItemManager/fast
+
+Electronics.o: Electronics.cpp.o
+.PHONY : Electronics.o
+
+# target to build an object file
+Electronics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Electronics.cpp.o
+.PHONY : Electronics.cpp.o
+
+Electronics.i: Electronics.cpp.i
+.PHONY : Electronics.i
+
+# target to preprocess a source file
+Electronics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Electronics.cpp.i
+.PHONY : Electronics.cpp.i
+
+Electronics.s: Electronics.cpp.s
+.PHONY : Electronics.s
+
+# target to generate assembly for a file
+Electronics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Electronics.cpp.s
+.PHONY : Electronics.cpp.s
+
+Grocery.o: Grocery.cpp.o
+.PHONY : Grocery.o
+
+# target to build an object file
+Grocery.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Grocery.cpp.o
+.PHONY : Grocery.cpp.o
+
+Grocery.i: Grocery.cpp.i
+.PHONY : Grocery.i
+
+# target to preprocess a source file
+Grocery.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Grocery.cpp.i
+.PHONY : Grocery.cpp.i
+
+Grocery.s: Grocery.cpp.s
+.PHONY : Grocery.s
+
+# target to generate assembly for a file
+Grocery.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Grocery.cpp.s
+.PHONY : Grocery.cpp.s
+
+Item.o: Item.cpp.o
+.PHONY : Item.o
+
+# target to build an object file
+Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Item.cpp.o
+.PHONY : Item.cpp.o
+
+Item.i: Item.cpp.i
+.PHONY : Item.i
+
+# target to preprocess a source file
+Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Item.cpp.i
+.PHONY : Item.cpp.i
+
+Item.s: Item.cpp.s
+.PHONY : Item.s
+
+# target to generate assembly for a file
+Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/Item.cpp.s
+.PHONY : Item.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShoppingItems.dir/build.make CMakeFiles/ShoppingItems.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +214,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShoppingItems.dir/build.make CMakeFiles/ShoppingItems.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShoppingItems.dir/build.make CMakeFiles/ShoppingItems.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ItemManager.dir/build.make CMakeFiles/ItemManager.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +233,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ShoppingItems"
+	@echo "... ItemManager"
+	@echo "... Electronics.o"
+	@echo "... Electronics.i"
+	@echo "... Electronics.s"
+	@echo "... Grocery.o"
+	@echo "... Grocery.i"
+	@echo "... Grocery.s"
+	@echo "... Item.o"
+	@echo "... Item.i"
+	@echo "... Item.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
